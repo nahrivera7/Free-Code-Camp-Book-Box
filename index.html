@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"  type="text/css">
+</head>
+<body>
+<div>
+<h1 id="title">Book Box</h1>
+
+<main><p id="description">Queremos conocerte más.</p></main>
+
+<img src="https://img1.etsystatic.com/001/0/5256488/il_570xN.360922161_cndk.jpg" alt="Book lovers" class="book-photo">
+<br>
+  <form id="survey-form">
+<label for="name" id="name-label">Nombre <input type="text" id="name" required placeholder="Escribe tu nombre completo"></label>
+<br>
+<label for="email" id="email-label">Correo electrónico <input type="email" id="email" required placeholder="abc@xyz.com"></label> 
+<br>    
+<label for="birth" id="birth-label">Fecha de nacimiento <input type="text" placeholder="DD/MM/AAAA"></label>
+<br>
+<label for="number" id="number-label">Edad <input type="number" id="number" min="1" max="100" placeholder="18"></label>
+<br>
+ <label id="suscrito">¿Ya estás suscrito a Book Box?</label>
+             <select id = "dropdown">
+               <option value = "1">Sí</option>
+               <option value = "2">No</option>
+             </select>
+      
+<ol class="preguntas">
+    <li>¿Qué tipo de novelas disfrutas más?</li>
+  <label><input type="checkbox" value="1" name="literature">Románticas</label>
+  <label><input type="checkbox" value="2" name="literature">Fantásticas</label>
+  <label><input type="checkbox" value="3" name="literature">Históricas</label>
+  <label><input type="checkbox" value="4" name="literature">Thrillers</label>
+  <label><input type="checkbox" value="5" name="literature">Policiales</label>
+  <label><input type="checkbox" value="6" name="literature">Otras</label><input type="text" class="otro" placeholder="¿Cuál?">
+  
+  
+  <li>¿Cuantas hojas crees que es la cantidad perfecta?</li>
+  <label><input type="radio" value="1" name="cantidad">Menos de 100</label>
+    <label><input type="radio" value="2" name="cantidad">100 - 500</label>
+  <label><input type="radio" value="3" name="cantidad">500 - 1000</label>
+    <label><input type="radio" value="4" name="cantidad">Más de 1000</label>
+  
+  
+  <li>¿Dónde es el momento oportuno para leer?</li>
+  <label><input type="checkbox" value="1" name="place">Casa</label>
+  <label><input type="checkbox" value="2"  name="place">Medio de transporte</label>
+  <label><input type="checkbox" value="3"  name="place">Centro Comercial</label>
+  <label><input type="checkbox" value="4" name="place">Cualquier momento</label>
+  
+  
+    <li>¿Con qué acompañas la lectura?</li>
+  <label><input type="checkbox" value="1" name="mate">Café</label>
+  <label><input type="checkbox" value="2" name="mate">Vino</label>
+  <label><input type="checkbox" value="3" name="mate">Gaseosa</label>
+  <label><input type="checkbox" value="4" name="mate">Otro</label><input type="text" class="otro" placeholder="¿Cuál?">
+  
+  
+  <li>¿Cuál es tu libro favorito?</li>
+  <input type="text" class="answer" placeholder="Caperucita Roja">
+  
+  
+  <li>¿Cuál es tu autor favorito?</li>
+  <input type="text" class="answer" placeholder="Los hermanos Grimm">
+  
+  
+  <li>¿Cómo nació tu amor por los libros?</li> <input type="text" class="answer" placeholder="En la universidad">
+
+    <li>¿Qué te pareció esta encuesta?</li>
+ <textarea rows="2" cols="50">
+Comentarios
+</textarea> 
+</ol>
+    
+<button type="submit" id="submit">Finalizar</button>
+</div>
+  </form>
+</body>
+  </html>

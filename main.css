@@ -1,0 +1,108 @@
+h1 {
+    color: #8b2323;
+    font-family: Indie Flower;
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  #description {
+    color: #cd3333;
+    font-family: Indie Flower;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .book-photo {
+    width: 300px;
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+  }
+  
+  #name-label{
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+  
+  #email-label{
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+  
+  #birth-label{
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+  
+  #number-label{
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+  
+  #suscrito{
+    line-height: 30px;
+    margin-left: 20px;
+    font-weight: normal;
+  }
+  
+  .preguntas{
+    line-height: 30px;
+  }
+  
+  #name{
+    width: 500px;
+  }
+  
+  #email {
+    width: 300px;
+  }
+  
+  #number {
+    width: 50px;
+  }
+  
+  .answer{
+    width: 300px;
+    height: 80px;
+  }
+  
+  input[type="checkbox"] {
+      display:inline-block;
+      width:10px;
+      height:10px;
+      margin-left: 30px;
+      margin-right: 10px;
+  }
+  
+  input[type="radio"] {
+      margin-left: 30px;
+      margin-right: 10px;
+  }
+  
+  .otro{
+    margin-left: 10px;
+  }
+  
+  div{
+    background-color: white;
+    width: 1000px;
+    margin-top: 50px;
+    margin-button: 50px;
+    border-radius: 40px;
+  }
+  
+  body{
+    background-color: #cdc8b1;
+      display: flex;
+    justify-content: center;
+  }
+  
+  #submit {
+    margin: auto;
+    display: block;
+  }
+  
